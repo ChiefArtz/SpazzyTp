@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener {
 
                 	$playerLevel = $sender->getLevel()->getName();
 
-                	$sender->sendMessage(TextFormat::BLUE . " x:" . TextFormat::GREEN . $outX . ", y:" . TextFormat::YELLOW . $outY . ", z:" . TextFormat::GREEN . $outZ . ". On: " . TextFormat::AQUA . $playerLevel);
+                	$sender->sendMessage("TextFormat::BLUE . " x:" . TextFormat::GREEN . $outX . ", y:" . TextFormat::YELLOW . $outY . ", z:" . TextFormat::GREEN . $outZ . ". On: " . TextFormat::AQUA . $playerLevel");
 					return true;
 				}
 
